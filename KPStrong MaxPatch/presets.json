@@ -1,0 +1,27 @@
+[
+  {
+    "name": "untitled",
+    "preset": {
+      "__sps": {
+        "p_obj-162": {},
+        "p_obj-192": {},
+        "p_obj-54": {}
+      },
+      "dampen": {
+        "value": 0.56
+      },
+      "decay": {
+        "value": 0
+      },
+      "noterate": {
+        "value": 146
+      },
+      "notetrigger": {
+        "value": 0
+      },
+      "notevalue": {
+        "value": 67
+      }
+    }
+  }
+]

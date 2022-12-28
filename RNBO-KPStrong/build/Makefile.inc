@@ -1,0 +1,2 @@
+-include libraries/OnePole/build/Makefile.link
+-include libraries/Trill/build/Makefile.link
