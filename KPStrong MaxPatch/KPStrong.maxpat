@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1021.0, 112.0, 842.0, 859.0 ],
+		"rect" : [ 37.0, 112.0, 1280.0, 859.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -102,7 +102,7 @@
 						}
 ,
 						"classnamespace" : "rnbo",
-						"rect" : [ 172.0, 138.0, 1084.0, 781.0 ],
+						"rect" : [ 34.0, 98.0, 652.0, 873.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2235,7 +2235,7 @@
 										"bgfillcolor_autogradient" : 0.0
 									}
 ,
-									"patching_rect" : [ 318.333329081535339, 559.666666388511658, 76.0, 23.0 ],
+									"patching_rect" : [ 318.333329081535339, 542.666666388511658, 76.0, 23.0 ],
 									"rnbo_classname" : "p",
 									"rnbo_extra_attributes" : 									{
 										"receivemode" : "local",
@@ -2552,7 +2552,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 318.333329081535339, 602.666684627532959, 50.0, 23.0 ],
+									"patching_rect" : [ 318.333329081535339, 576.0, 50.0, 23.0 ],
 									"rnbo_classname" : "number",
 									"rnbo_extra_attributes" : 									{
 										"maximum" : "<none>",
@@ -2569,89 +2569,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-111",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 417.0, 332.0, 31.0, 23.0 ],
-									"rnbo_classname" : "gate",
-									"rnbo_extra_attributes" : 									{
-										"outputs" : 1.0
-									}
-,
-									"rnbo_serial" : 1,
-									"rnbo_uniqueid" : "gate_obj-111",
-									"rnboinfo" : 									{
-										"needsInstanceInfo" : 1,
-										"argnames" : 										{
-											"onoff" : 											{
-												"attrOrProp" : 1,
-												"digest" : "0 Closes gate, non-zero opens the corresponding gate outlet",
-												"defaultarg" : 2,
-												"isalias" : 0,
-												"aliases" : [  ],
-												"settable" : 1,
-												"attachable" : 0,
-												"isparam" : 0,
-												"deprecated" : 0,
-												"inlet" : 1,
-												"type" : "number",
-												"defaultValue" : "0"
-											}
-,
-											"outputs" : 											{
-												"attrOrProp" : 2,
-												"digest" : "Number of outlets",
-												"defaultarg" : 1,
-												"isalias" : 0,
-												"aliases" : [  ],
-												"settable" : 1,
-												"attachable" : 0,
-												"isparam" : 0,
-												"deprecated" : 0,
-												"type" : "number",
-												"defaultValue" : "1"
-											}
-
-										}
-,
-										"inputs" : [ 											{
-												"name" : "onoff",
-												"type" : "number",
-												"digest" : "0 Closes gate, non-zero opens the corresponding gate outlet",
-												"defaultarg" : 2,
-												"docked" : 0
-											}
-, 											{
-												"name" : "input",
-												"type" : [ "bang", "number", "list" ],
-												"digest" : "Incoming gated message",
-												"hot" : 1,
-												"docked" : 0
-											}
- ],
-										"outputs" : [ 											{
-												"name" : "out1",
-												"type" : [ "bang", "number", "list" ],
-												"digest" : "Gated Output 1",
-												"docked" : 0
-											}
- ],
-										"helpname" : "gate",
-										"aliasOf" : "gate",
-										"classname" : "gate",
-										"operator" : 0,
-										"versionId" : 1401780776,
-										"changesPatcherIO" : 0
-									}
-,
-									"text" : "gate"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"format" : 0,
 									"id" : "obj-94",
 									"maxclass" : "number",
@@ -2659,7 +2576,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 318.5, 518.0, 50.0, 23.0 ],
+									"patching_rect" : [ 318.5, 508.0, 50.0, 23.0 ],
 									"rnbo_classname" : "number",
 									"rnbo_extra_attributes" : 									{
 										"maximum" : "<none>",
@@ -11397,7 +11314,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "untitled_20221228.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../../Documents/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
